@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+
+        <h1>Contact us</h1>
+    </section>
+
+<!-- Contact us -->
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.262903001671!2d13.351477515915965!3d52.49248044602071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85045d73ceaff%3A0xfac52ceead89b0b7!2sGoltzstra%C3%9Fe%2013%2C%2010781%20Berlin!5e0!3m2!1sde!2sde!4v1628080532723!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Goltzstrasse 13</h5>
+                    <p>Berlin, 10781</p>
+                </span>
+            </div>
+        
+            <div>
+                <i class="fa fa-home"></i>
+
+                <span>
+                    <h5>0176 --------</h5>
+                    <p>Mon-Sam</p>
+                </span>
+            </div>
+        
+            <div>
+                <i class="fa fa-home"></i>
+
+                <span>
+                    <h5>john-dou@asdas.com</h5>
+                    <p>Email us your request</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your Name" required>
+                <input type="email" name="email" placeholder="Enter your EmailAddress" required>
+                <input type="text" name="subject" placeholder="Enter your Subject" required>
+                <textarea  rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn red-btn">Send Message</button>
+            </form>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+         Aliquid quisquam nesciunt quia tempore sapiente veritatis <br>
+        ducimus aspernatur.</p>
+    <div class="icons">
+        <img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"/>
+        <img src="https://img.icons8.com/material-rounded/24/000000/twitter.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram.png"/>
+    </div>
+    <p>Made with<img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"/> by Easy Toturials</p>
+</section>
+<!-- --------- JAVASCRIPT--------------------
+ -->    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

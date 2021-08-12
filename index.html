@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/901aac579d.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h2>LOGO</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fab fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fab fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="home-header">
+            <h1>Hilfe vor der Prüfung?</h1>
+            <p>asda sda sdasdqwekj qhjiwdlq asdasd asdqweqe io8u<br> wd qw9zqw
+                qwhoqiwdhiqwhdqwd qoidsjqwod
+            </p>
+            <a class="btn" href="index.html">Unsere Website besuchen</a>
+        </div>
+    </section>
+    <!-- -----------------courses------------------->
+    <section class="Kurse">
+        <h1>Kurse die wir anbieten</h1>
+        <div class="row">
+            <div class="Kurse-col">
+                <h3>Mathematik</h3>
+                <p>(1) Lorem ipsum asdaweqg elit. Odio vel consequuntur 
+                   voluptate quidem asperiores? Ducimus unde, officiis eligendi
+                   voluptate perferendis recusandae nesciunt</p>
+            </div>
+            <div class="Kurse-col">
+                <h3>Physik</h3>
+                <p>(2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel consequuntur 
+                   voluptate quidem asperiores? Ducimus unde, officiis eligendi
+                   </p>
+            </div>
+            <div class="Kurse-col">
+                <h3>Englisch</h3>
+                <p>(3) Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel consequuntur 
+                   voluptate quidem asperiores? Ducimus unde, officiis eligendi
+                   voluptate perferendis recusandae nesci</p>
+            </div>
+        </div>
+    </section>
+<!-- -----------ort ----------------->
+    <section class="ort">
+        <h1>Unsere Standorte</h1>
+        <p>Lorem ipsum dolor, sit amet provident ut exercitationem?</p>
+        <div class="row">
+            <div class="ort-col">
+                <img src="images/image3.png">
+                <div class="city">
+                    <h3>Berlin</h3>
+                </div>
+            </div>
+            <div class="ort-col">
+                <img src="images/image2.png">
+                <div class="city">
+                    <h3>Brandenburg</h3>
+                </div>
+            </div>
+            <div class="ort-col">
+                <img src="images/image1.png">
+                <div class="city">
+                    <h3>München</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Call to action -->
+<section class="cta">
+    <a href="contact.html" class="btn" >Contact us</a>
+</section>
+<!-- Footer -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+         Aliquid quisquam nesciunt quia tempore sapiente veritatis <br>
+        ducimus aspernatur.</p>
+    <div class="icons">
+        <img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"/>
+        <img src="https://img.icons8.com/material-rounded/24/000000/twitter.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram.png"/>
+    </div>
+    <p>Made with<img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"/> by Easy Toturials</p>
+    <p>Made with <i class="fa fa-heart"></i> by Easy Toturials</p>
+</section>
+<!-- --------- JAVASCRIPT--------------------
+ -->    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

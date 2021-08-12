@@ -19,7 +19,7 @@
     <section class="header">
         <nav>
             <h2>LOGOooo</h2>
-            <div class="nav-links" id="navLinks">
+            <div class="sidebar-links" id="sidebar">
                 <i class="fab fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -89,8 +89,9 @@
 
 <!-- Call to action -->
 <section class="cta">
-    <a href="contact.html" class="btn" >Contact us</a>
+    <a href="contact.html" class="btn">Contact us</a>
 </section>
+
 <!-- Footer -->
 <section class="footer">
     <h4>About us</h4>
@@ -107,12 +108,12 @@
 </section>
 <!-- --------- JAVASCRIPT--------------------
  -->    <script>
-        var navLinks = document.getElementById("navLinks");
+        var sidebar = document.getElementById("sidebar");
         function showMenu(){
-            navLinks.style.right = "0";
+            sidebar.style.right = "0";
         }
         function hideMenu(){
-            navLinks.style.right = "-200px";
+            sidebar.style.right = "-200px";
         }
     </script>
 </body>

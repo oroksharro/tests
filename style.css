@@ -21,22 +21,22 @@ nav h2{
     width: 150px;
     color: #f44336;
 }
-.nav-links{
+.sidebar-links{
     flex: 1;
     text-align: right;
 }
-.nav-links ul li{
+.sidebar-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a{
+.sidebar-links ul li a{
     color:#fff;
     text-decoration: none;
     font-size: 13px;
 }
-.nav-links ul li::after{
+.sidebar-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -46,7 +46,7 @@ nav h2{
     transition: 0.5s;
 
 }
-.nav-links ul li:hover::after{
+.sidebar-links ul li:hover::after{
     width: 100%;
 }
 .home-header{
@@ -91,10 +91,10 @@ nav .fab{
     .home-header h1{
         font-size: 20px;
     }
-    .nav-links ul li{
+    .sidebar-links ul li{
         display: block;
     }
-    .nav-links{
+    .sidebar-links{
         position: fixed;
         background: #f44336;
         height: 100vh;
@@ -115,7 +115,7 @@ nav .fab{
             font-size: 22px;
             cursor: pointer;
     }
-    .nav-links ul{
+    .sidebar-links ul{
         padding: 30px;
     }
 }
@@ -294,13 +294,13 @@ color: black;
         margin-right: 15px;
     }
 }
- */
+ 
 /* Call to action */
 
 .cta{
     margin: 100px auto;
     width: 50%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/contact.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -316,9 +316,7 @@ color: black;
     .cta h1{
         font-size: 24px;
     }
-    /* .cta {
-        width: 50%;
-    } */
+    
 }
 
 /* Footer */
